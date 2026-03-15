@@ -15,7 +15,7 @@
 - JavaScript (Vanilla): DOM manipulation, search algorithms, and form handling.
 
 # How to view
-You can access my website by visiting this [link]. Feel free to explore the content and get in touch.
+You can access my website by visiting this https://padmini1405.github.io/Nostra_ecommerce/index.html .Feel free to explore the content and get in touch.
 
 # Purpose
 This project was built to practice frontend development concepts using HTML, CSS, and JavaScript.
