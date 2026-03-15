@@ -1,0 +1,94 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width:80%;
+    margin:15px auto;
+    background: linear-gradient(to right,#1c2430,#202a36);
+    border-radius: 10px;
+
+}
+
+.contact-form{
+    padding-top:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius:5px;
+    color:white;
+}
+
+.contact-form h2{
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+
+label{
+    color:white;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:14px;
+    border-radius:5px;
+    border:none;
+    background:white;
+    font-size:16px;
+}
+
+textarea{
+    height:120px;
+    resize:none;
+}
+
+
+input[type="submit"]{
+    width:100px;
+    margin-top:20px;
+    background:#0d5db8;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    padding:10px;
+}
+
+input[type="submit"]:hover{
+    background:#094a92;
+}
+
+
+@media screen and (max-width:768px){
+
+.container{
+    width:95%;
+}
+
+.contact-form h2{
+    font-size:22px;
+}
+
+input,
+textarea{
+    padding:12px;
+    font-size:14px;
+}
+
+input[type="submit"]{
+    width:30%;
+}
+}

@@ -1,0 +1,170 @@
+.product-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+.divide-section {
+    gap: 20px;
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+
+.filter-section {
+    flex-basis: 23%;
+    margin-top: 20px;
+    border-right: solid 2px black;
+    font-size: 3vw;
+}
+
+.filter-section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    width: fit-content;
+    justify-content: flex-start;
+    line-height: 0.4px;
+    margin-top: 0px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.production-section {
+    flex-basis: 75%;
+}
+
+.search-section {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-section input {
+    padding: 12px 15px;
+    padding-right: 20px;
+    width: 100%;
+    border: 1.5px solid #000;
+    border-radius: 8px;
+    font-size: 12px;
+    outline: none;
+}
+
+.search-section i {
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.product {
+    width: 100%;
+}
+
+.product img {
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+
+    .divide-section {
+        flex-direction: row;
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .filter-section {
+        flex-basis: 33%;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .filter-section h3 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .checkbox-group label {
+        font-size: 12px;
+    }
+
+    .production-section {
+        flex-basis: 100%;
+    }
+
+    .products-section {
+        padding-left: 10px;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .product {
+        width: 95px;
+    }
+
+    .product img {
+        width: 90px;
+        height: 100px;
+        width: 100%;
+        height: auto;
+    }
+
+    .product h1 {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+    .product p{
+        padding-top: 0px;
+        font-size: 8px;
+    }
+    .search-section{
+        padding-left: 10px;
+    }
+}
